@@ -8,17 +8,17 @@ Welcome to the Blogy repository! Blogy is a simple blogging platform that allows
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 This repository contains the source code, assets, and resources required to build and deploy the Blogy platform. The project is developed using HTML, CSS, JavaScript, PHP, and MySQL. It provides users with a blogging platform where they can create and publish their own blog posts, interact with other users through likes and reviews, and administrators can manage the platform's content.
 
 ## Features
+- User-friendly Interface: an intuitive and easy-to-use interface, allowing to focus on content creation without any technical hassle.
 - User Registration: Users can create an account to start blogging and interacting with the community.
 - Blog Creation: Users can create and publish their own blog posts, including a title and content.
 - Blog Viewing: Users can view blog posts created by other users.
 - Blog Liking: Users can like blog posts to show appreciation.
-- Reviews: Users can leave reviews on blog posts to provide feedback and comments.
+- Reviews: Users can leave reviews to provide feedback and comments.
 - Admin Dashboard: Admin users have access to a dashboard to manage blogs, users, and reviews.
 - Blog Management: Admin can view and delete blogs from the platform.
 - User Management: Admin can view and delete user accounts.
@@ -39,7 +39,7 @@ To run Blogy locally on your machine, follow these steps:
 - Register a new user account to access the blogging platform.
 - Create blog posts by providing a title and content.
 - Like other users' blog posts to show appreciation.
-- Leave reviews on blog posts to share your thoughts.
+- Leave reviews to share your thoughts.
 - Admin users can access the admin dashboard to manage blogs, users, and reviews.
 
 ## Contributing
