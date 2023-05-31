@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lilita+One&family=Lobster+Two&family=Montserrat+Alternates:wght@200;500&family=Satisfy&family=Sigmar&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Dancing+Script:wght@700&family=Lilita+One&family=Lobster+Two&family=Montserrat+Alternates:wght@200;500&family=Oswald:wght@500&family=Satisfy&family=Sigmar&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat Alternates';
+}
+nav{
+    background-color: #f1f1f1;
+}
+
+.tabs {
+    border-right: none;
+}
+
+.tabs .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 1rem;
+}
+.corp{
+    height: 55vh;
+}
+
+.comments{
+    color: rgb(2, 0, 37);
+}
+.card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: white;
+    border-width: 15px;
+    text-align: center;
+}
+.card-footer{
+    text-align: center;
+    background-color:transparent;
+}
+
+.tabs .container>div:hover {
+    cursor: pointer;
+}
+
+.tab-border {
+    border-bottom: hsl(223, 98%, 50%) 5px solid;
+    border-radius: 0px;
+}
+
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+    opacity: 0;
+}
+
+.show {
+    display: block !important;
+    opacity: 1 !important;
+    transition: all 1000 ease-in;
+}
+
+.tab-content-item p {
+    font-size: 18px;
+}
+.card{
+    width: 60%;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;  border-radius: 25px;
+    background-color:#EFF2F3;
+}
+.tabs,h2{
+    color: rgb(116, 116, 116);
+    text-align:center;
+    font-size: 30px;
+    font-family: acme;
+    font-weight: 500;
+}
+.rate{
+    text-align: center;
+    color: rgb(99, 99, 99);
+}
